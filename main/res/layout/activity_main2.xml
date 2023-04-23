@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="525dp"
+        android:layout_weight="9"
+
+        />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginBottom="314dp"
+        android:layout_weight="1"
+        android:text="NEXT"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v1" />
+
+</LinearLayout>
